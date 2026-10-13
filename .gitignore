@@ -1,0 +1,24 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*credentials*.json
+gcloud-application_default_credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local logs/temp
+*.log
+sahayak_execution_log.*
+execution_logs/
+tmp/
+
+# Keep required final artifacts and any explicitly required dataset files tracked.
